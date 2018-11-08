@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D8560202188E25700224DBA /* SDKIntegration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D85601F2188E25700224DBA /* SDKIntegration.swift */; };
+		4D8560212188E25700224DBA /* SDKIntegration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D85601F2188E25700224DBA /* SDKIntegration.swift */; };
+		6619E8C32176225E003B6A67 /* KlarnaPayments.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6619E8C22176225E003B6A67 /* KlarnaPayments.framework */; };
+		6619E8C42176225E003B6A67 /* KlarnaPayments.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6619E8C22176225E003B6A67 /* KlarnaPayments.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6636F6ED21788529005FB431 /* BackendOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6683CB1C216CE28F0032D96B /* BackendOperations.swift */; };
+		6636F6EE21788529005FB431 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6683CAF7216B83A30032D96B /* ViewController.swift */; };
+		6636F6EF21788529005FB431 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6683CAF5216B83A30032D96B /* AppDelegate.swift */; };
+		6636F6F021788529005FB431 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6683CB1A216CE1850032D96B /* UIView+Extensions.swift */; };
+		6636F6F421788529005FB431 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6683CAFE216B83A50032D96B /* LaunchScreen.storyboard */; };
+		6636F6F521788529005FB431 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6683CAFC216B83A50032D96B /* Assets.xcassets */; };
+		6636F6F621788529005FB431 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6683CAF9216B83A30032D96B /* Main.storyboard */; };
+		6683CAF6216B83A30032D96B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6683CAF5216B83A30032D96B /* AppDelegate.swift */; };
+		6683CAF8216B83A30032D96B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6683CAF7216B83A30032D96B /* ViewController.swift */; };
+		6683CAFB216B83A30032D96B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6683CAF9216B83A30032D96B /* Main.storyboard */; };
+		6683CAFD216B83A50032D96B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6683CAFC216B83A50032D96B /* Assets.xcassets */; };
+		6683CB00216B83A50032D96B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6683CAFE216B83A50032D96B /* LaunchScreen.storyboard */; };
+		6683CB1B216CE1850032D96B /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6683CB1A216CE1850032D96B /* UIView+Extensions.swift */; };
+		6683CB1D216CE28F0032D96B /* BackendOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6683CB1C216CE28F0032D96B /* BackendOperations.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6636F6F821788529005FB431 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6683CB0D216B89180032D96B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6619E8C42176225E003B6A67 /* KlarnaPayments.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4D85601F2188E25700224DBA /* SDKIntegration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKIntegration.swift; sourceTree = "<group>"; };
+		6619E8C22176225E003B6A67 /* KlarnaPayments.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KlarnaPayments.framework; path = "Carthage/Checkouts/kp-mobile-sdk/ios/KlarnaPayments.framework"; sourceTree = "<group>"; };
+		6636F6FD21788529005FB431 /* FashionStore-CocoaPods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FashionStore-CocoaPods.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6683CAF2216B83A30032D96B /* FashionStore-Carthage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FashionStore-Carthage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6683CAF5216B83A30032D96B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6683CAF7216B83A30032D96B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6683CAFA216B83A30032D96B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6683CAFC216B83A50032D96B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6683CAFF216B83A50032D96B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6683CB01216B83A50032D96B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6683CB1A216CE1850032D96B /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		6683CB1C216CE28F0032D96B /* BackendOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackendOperations.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6636F6F121788529005FB431 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6683CAEF216B83A30032D96B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6619E8C32176225E003B6A67 /* KlarnaPayments.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6683CAE9216B83A30032D96B = {
+			isa = PBXGroup;
+			children = (
+				6683CAF4216B83A30032D96B /* FashionStore */,
+				6683CAF3216B83A30032D96B /* Products */,
+				6683CB07216B87F70032D96B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6683CAF3216B83A30032D96B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6683CAF2216B83A30032D96B /* FashionStore-Carthage.app */,
+				6636F6FD21788529005FB431 /* FashionStore-CocoaPods.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6683CAF4216B83A30032D96B /* FashionStore */ = {
+			isa = PBXGroup;
+			children = (
+				6683CAF5216B83A30032D96B /* AppDelegate.swift */,
+				6683CAF7216B83A30032D96B /* ViewController.swift */,
+				4D85601F2188E25700224DBA /* SDKIntegration.swift */,
+				6683CB1C216CE28F0032D96B /* BackendOperations.swift */,
+				6683CB1A216CE1850032D96B /* UIView+Extensions.swift */,
+				6683CB01216B83A50032D96B /* Info.plist */,
+				6683CAFC216B83A50032D96B /* Assets.xcassets */,
+				6683CAFE216B83A50032D96B /* LaunchScreen.storyboard */,
+				6683CAF9216B83A30032D96B /* Main.storyboard */,
+			);
+			path = FashionStore;
+			sourceTree = "<group>";
+		};
+		6683CB07216B87F70032D96B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6619E8C22176225E003B6A67 /* KlarnaPayments.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6636F6EB21788529005FB431 /* FashionStore-CocoaPods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6636F6FA21788529005FB431 /* Build configuration list for PBXNativeTarget "FashionStore-CocoaPods" */;
+			buildPhases = (
+				6636F6EC21788529005FB431 /* Sources */,
+				6636F6F121788529005FB431 /* Frameworks */,
+				6636F6F321788529005FB431 /* Resources */,
+				6636F6F821788529005FB431 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FashionStore-CocoaPods";
+			productName = FashionStore;
+			productReference = 6636F6FD21788529005FB431 /* FashionStore-CocoaPods.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6683CAF1216B83A30032D96B /* FashionStore-Carthage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6683CB04216B83A50032D96B /* Build configuration list for PBXNativeTarget "FashionStore-Carthage" */;
+			buildPhases = (
+				6683CAEE216B83A30032D96B /* Sources */,
+				6683CAEF216B83A30032D96B /* Frameworks */,
+				6683CAF0216B83A30032D96B /* Resources */,
+				6683CB0E216B89C10032D96B /* Run Script - Carthage */,
+				6683CB0D216B89180032D96B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FashionStore-Carthage";
+			productName = FashionStore;
+			productReference = 6683CAF2216B83A30032D96B /* FashionStore-Carthage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6683CAEA216B83A30032D96B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Klarna Bank AB";
+				TargetAttributes = {
+					6683CAF1216B83A30032D96B = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 6683CAED216B83A30032D96B /* Build configuration list for PBXProject "FashionStore" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6683CAE9216B83A30032D96B;
+			productRefGroup = 6683CAF3216B83A30032D96B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6683CAF1216B83A30032D96B /* FashionStore-Carthage */,
+				6636F6EB21788529005FB431 /* FashionStore-CocoaPods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6636F6F321788529005FB431 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6636F6F421788529005FB431 /* LaunchScreen.storyboard in Resources */,
+				6636F6F521788529005FB431 /* Assets.xcassets in Resources */,
+				6636F6F621788529005FB431 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6683CAF0216B83A30032D96B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6683CB00216B83A50032D96B /* LaunchScreen.storyboard in Resources */,
+				6683CAFD216B83A50032D96B /* Assets.xcassets in Resources */,
+				6683CAFB216B83A30032D96B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6683CB0E216B89C10032D96B /* Run Script - Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Checkouts/kp-mobile-sdk/ios/KlarnaPayments.framework",
+			);
+			name = "Run Script - Carthage";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6636F6EC21788529005FB431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6636F6ED21788529005FB431 /* BackendOperations.swift in Sources */,
+				6636F6EE21788529005FB431 /* ViewController.swift in Sources */,
+				4D8560212188E25700224DBA /* SDKIntegration.swift in Sources */,
+				6636F6EF21788529005FB431 /* AppDelegate.swift in Sources */,
+				6636F6F021788529005FB431 /* UIView+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6683CAEE216B83A30032D96B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6683CB1D216CE28F0032D96B /* BackendOperations.swift in Sources */,
+				6683CAF8216B83A30032D96B /* ViewController.swift in Sources */,
+				4D8560202188E25700224DBA /* SDKIntegration.swift in Sources */,
+				6683CAF6216B83A30032D96B /* AppDelegate.swift in Sources */,
+				6683CB1B216CE1850032D96B /* UIView+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6683CAF9216B83A30032D96B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6683CAFA216B83A30032D96B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6683CAFE216B83A50032D96B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6683CAFF216B83A50032D96B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6636F6FB21788529005FB431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = FashionStore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.klarna.sdk.PaymentsFashionStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6636F6FC21788529005FB431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = FashionStore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.klarna.sdk.PaymentsFashionStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6683CB02216B83A50032D96B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6683CB03216B83A50032D96B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6683CB05216B83A50032D96B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/kp-mobile-sdk/ios",
+				);
+				INFOPLIST_FILE = FashionStore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.klarna.sdk.PaymentsFashionStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6683CB06216B83A50032D96B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/kp-mobile-sdk/ios",
+				);
+				INFOPLIST_FILE = FashionStore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.klarna.sdk.PaymentsFashionStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6636F6FA21788529005FB431 /* Build configuration list for PBXNativeTarget "FashionStore-CocoaPods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6636F6FB21788529005FB431 /* Debug */,
+				6636F6FC21788529005FB431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6683CAED216B83A30032D96B /* Build configuration list for PBXProject "FashionStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6683CB02216B83A50032D96B /* Debug */,
+				6683CB03216B83A50032D96B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6683CB04216B83A50032D96B /* Build configuration list for PBXNativeTarget "FashionStore-Carthage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6683CB05216B83A50032D96B /* Debug */,
+				6683CB06216B83A50032D96B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6683CAEA216B83A30032D96B /* Project object */;
+}
