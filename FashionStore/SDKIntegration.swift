@@ -7,7 +7,7 @@
 
 import UIKit
 
-import KlarnaPayments
+import KlarnaMobileSDK
 
 ///
 /// SDK Integration:

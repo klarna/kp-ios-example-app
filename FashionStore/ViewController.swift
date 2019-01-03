@@ -7,7 +7,7 @@
 
 import UIKit
 
-import KlarnaPayments
+import KlarnaMobileSDK
 
 public protocol ViewControllerDelegate: class {
     func displayPaymentView()
