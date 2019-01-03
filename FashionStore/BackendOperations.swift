@@ -56,13 +56,13 @@ extension BackendOperations {
         }
 
         enum Merchant {
-            static let purchaseCountry = "<please enter here> e.g. SE"
-            static let purchaseCurrency = "<please enter here> e.g. SEK"
-            static let locale = "<please enter here> e.g. en-US"
+            static let purchaseCountry = "SE"
+            static let purchaseCurrency = "SEK"
+            static let locale = "en-US"
         }
 
         enum ApiUrl {
-            static let baseUrl = "<please enter here>"
+            static let baseUrl = "https://api.playground.klarna.com/"
             static let createCreditSession = "\(Constants.ApiUrl.baseUrl)/payments/v1/sessions"
             static let createNewOrder = "\(Constants.ApiUrl.baseUrl)/payments/v1/authorizations/%@/order"
         }
