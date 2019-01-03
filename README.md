@@ -20,16 +20,7 @@ See SDK repository here https://github.com/klarna/kp-mobile-sdk
 
 ## Setup
 
-Before you build & run, download the `KlarnaPayments.framework`:
-
-* Using Carthage:
-
-    ```swift
-    carthage update --no-build
-    ```
-
-* Using Cocoapods:
-
-    ```swift
-    pod install
-    ```
+* Install KlarnaMobileSDK using Cocoapods: 
+	* `pod update`
+* Enter your Merchant credentials & API details in `BackendOperations` file.
+* Open and run the project.
