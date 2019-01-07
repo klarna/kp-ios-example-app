@@ -15,6 +15,7 @@
 		6636F6F421788529005FB431 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6683CAFE216B83A50032D96B /* LaunchScreen.storyboard */; };
 		6636F6F521788529005FB431 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6683CAFC216B83A50032D96B /* Assets.xcassets */; };
 		6636F6F621788529005FB431 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6683CAF9216B83A30032D96B /* Main.storyboard */; };
+		DE09F973B278A8D517E19D25 /* Pods_FashionStore_CocoaPods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F7CCECD8FA3F7F3CA6A208C /* Pods_FashionStore_CocoaPods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1F7CCECD8FA3F7F3CA6A208C /* Pods_FashionStore_CocoaPods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FashionStore_CocoaPods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D85601F2188E25700224DBA /* SDKIntegration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKIntegration.swift; sourceTree = "<group>"; };
 		6636F6FD21788529005FB431 /* FashionStore-CocoaPods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FashionStore-CocoaPods.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6683CAF5216B83A30032D96B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +43,8 @@
 		6683CB01216B83A50032D96B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6683CB1A216CE1850032D96B /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		6683CB1C216CE28F0032D96B /* BackendOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackendOperations.swift; sourceTree = "<group>"; };
+		8D43A59530CF2F1D19951E18 /* Pods-FashionStore-CocoaPods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FashionStore-CocoaPods.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FashionStore-CocoaPods/Pods-FashionStore-CocoaPods.debug.xcconfig"; sourceTree = "<group>"; };
+		E9E262BD69DB256C493F0874 /* Pods-FashionStore-CocoaPods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FashionStore-CocoaPods.release.xcconfig"; path = "Pods/Target Support Files/Pods-FashionStore-CocoaPods/Pods-FashionStore-CocoaPods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,17 +52,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE09F973B278A8D517E19D25 /* Pods_FashionStore_CocoaPods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17769DD5A7C3CD9DCADC6601 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D43A59530CF2F1D19951E18 /* Pods-FashionStore-CocoaPods.debug.xcconfig */,
+				E9E262BD69DB256C493F0874 /* Pods-FashionStore-CocoaPods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6683CAE9216B83A30032D96B = {
 			isa = PBXGroup;
 			children = (
 				6683CAF4216B83A30032D96B /* FashionStore */,
 				6683CAF3216B83A30032D96B /* Products */,
+				17769DD5A7C3CD9DCADC6601 /* Pods */,
+				784CFC145037203DAF44C649 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +102,14 @@
 			path = FashionStore;
 			sourceTree = "<group>";
 		};
+		784CFC145037203DAF44C649 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F7CCECD8FA3F7F3CA6A208C /* Pods_FashionStore_CocoaPods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -93,10 +117,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6636F6FA21788529005FB431 /* Build configuration list for PBXNativeTarget "FashionStore-CocoaPods" */;
 			buildPhases = (
+				7D057A5E361D81AA5547A8D3 /* [CP] Check Pods Manifest.lock */,
 				6636F6EC21788529005FB431 /* Sources */,
 				6636F6F121788529005FB431 /* Frameworks */,
 				6636F6F321788529005FB431 /* Resources */,
 				6636F6F821788529005FB431 /* Embed Frameworks */,
+				C1DEABB507C6339E880361FD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,6 +174,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7D057A5E361D81AA5547A8D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FashionStore-CocoaPods-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1DEABB507C6339E880361FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FashionStore-CocoaPods/Pods-FashionStore-CocoaPods-frameworks.sh",
+				"${PODS_ROOT}/KlarnaMobileSDK/ios/KlarnaMobileSDK.framework",
+				"${PODS_ROOT}/KlarnaMobileSDK/ios/KlarnaMobileSDK.framework.dSYM",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KlarnaMobileSDK.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/KlarnaMobileSDK.framework.dSYM",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FashionStore-CocoaPods/Pods-FashionStore-CocoaPods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6636F6EC21788529005FB431 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -185,6 +260,7 @@
 /* Begin XCBuildConfiguration section */
 		6636F6FB21788529005FB431 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D43A59530CF2F1D19951E18 /* Pods-FashionStore-CocoaPods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -206,6 +282,7 @@
 		};
 		6636F6FC21788529005FB431 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9E262BD69DB256C493F0874 /* Pods-FashionStore-CocoaPods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";

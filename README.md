@@ -20,7 +20,6 @@ See SDK repository here https://github.com/klarna/kp-mobile-sdk
 
 ## Setup
 
-* Install KlarnaMobileSDK using Cocoapods: 
-	* `pod update`
 * Enter your Merchant credentials & API details in `BackendOperations` file.
-* Open and run the project.
+* Run `pod update`
+* Open `FashionStore.xcworkspace` and click on `Run`.
