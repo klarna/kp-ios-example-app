@@ -1,17 +1,6 @@
-# Klarna Payments SDK for Mobile Apps - iOS Example App
+# Klarna Mobile SDK for Klarna Payments - iOS Example App
 
-<br/>
-
----
-Klarna Payments SDK BETA, API subject to change.
-
----
-
-<br/>
-
-
-See SDK repository here https://github.com/klarna/kp-mobile-sdk
-
+See SDK repository here https://github.com/klarna/klarna-mobile-sdk
 
 ## Screenshots
 
