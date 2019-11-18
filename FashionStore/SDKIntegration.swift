@@ -127,16 +127,13 @@ final class SDKIntegration {
 
 extension SDKIntegration: KlarnaPaymentEventListener {
     func klarnaInitialized(paymentView: KlarnaPaymentView) {
+        viewControllerDelegate?.displayPaymentView()
         paymentView.load()
     }
     
-    func klarnaLoaded(paymentView: KlarnaPaymentView) {
-        viewControllerDelegate?.displayPaymentView()
-    }
+    func klarnaLoaded(paymentView: KlarnaPaymentView) {}
     
-    func klarnaLoadedPaymentReview(paymentView: KlarnaPaymentView) {
-        viewControllerDelegate?.displayPaymentView()
-    }
+    func klarnaLoadedPaymentReview(paymentView: KlarnaPaymentView) {}
     
     func klarnaAuthorized(paymentView: KlarnaPaymentView, approved: Bool, authToken: String?, finalizeRequired: Bool) {
         authorizationToken = authToken
