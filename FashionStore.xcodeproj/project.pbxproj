@@ -203,22 +203,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-FashionStore-CocoaPods/Pods-FashionStore-CocoaPods-frameworks.sh",
-				"${PODS_ROOT}/KlarnaMobileSDK/ios/KlarnaMobileSDK.framework",
-				"${PODS_ROOT}/KlarnaMobileSDK/ios/KlarnaMobileSDK.framework.dSYM",
+				"${PODS_ROOT}/Target Support Files/Pods-FashionStore-CocoaPods/Pods-FashionStore-CocoaPods-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KlarnaMobileSDK.framework",
-				"${DWARF_DSYM_FOLDER_PATH}/KlarnaMobileSDK.framework.dSYM",
+				"${PODS_ROOT}/Target Support Files/Pods-FashionStore-CocoaPods/Pods-FashionStore-CocoaPods-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FashionStore-CocoaPods/Pods-FashionStore-CocoaPods-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FashionStore-CocoaPods/Pods-FashionStore-CocoaPods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
