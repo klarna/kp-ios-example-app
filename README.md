@@ -21,8 +21,35 @@ Klarna In-App SDK offers two integration approaches: **Native integration** and 
 * Clone this repo
 * Run `pod install --repo-update`
 * Open `FashionStore.xcworkspace`
-* Enter your Merchant credentials & API details in `BackendOperations` file.
-* Build and run the project.
+* Enter/update your Merchant credentials & API details as follows:
+
+#### Credentials
+
+Please enter your Merchant credentials (`username` and `password` values) in [`BackendOperations`](FashionStore/BackendOperations.swift) file.
+
+#### Base URL
+
+Klarna APIs are available through different base URLs relating to your location and interaction needs.
+
+Please update the `baseUrl` value in [`BackendOperations`](FashionStore/BackendOperations.swift) file using one of these options:
+
+##### Live environment (Production):
+
+* Europe: `https://api.klarna.com/`
+* North America: `https://api-na.klarna.com/`
+* Oceania: `https://api-oc.klarna.com/`
+
+##### Testing environment (Playground):
+
+* Europe: `https://api.playground.klarna.com/`
+* North America: `https://api-na.playground.klarna.com/`
+* Oceania: `https://api-oc.playground.klarna.com/` 
+
+#### Payment Category
+
+To change the payment method category to show on the payment page, please click on the refresh button on the main screen of the demo app. It will switch to the next available payment method category for this particular session, as you will see the current category name shown on top of the screen. 
+
+Now you can build and run the project.
 
 ### Native Integration
 As previously mentioned, Klarna Payments supports native integration. The main idea behind Klarna Payments is to give merchants the ability to offer Klarna’s payment methods to customers. Because Klarna doesn’t own the entire checkout flow, a check must be performed before an order is created. Our goal with this integration is to offer you the same simple development experience as you have on the web. As such, integrating Klarna Payments consists of four steps:
