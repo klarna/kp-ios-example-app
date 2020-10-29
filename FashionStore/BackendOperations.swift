@@ -72,7 +72,7 @@ extension BackendOperations {
         "purchase_country": Constants.Merchant.purchaseCountry,
         "purchase_currency": Constants.Merchant.purchaseCurrency,
         "locale": Constants.Merchant.locale,
-        "order_amount": 350,
+        "order_amount": 10000,
         "order_tax_amount": 0,
         "order_lines": [
             [
@@ -81,9 +81,9 @@ extension BackendOperations {
                 "reference": "AccessoryBag-Ref-ID-0001",
                 "name":"Light Brown Accessory Bag",
                 "quantity": 1,
-                "unit_price": 350,
+                "unit_price": 10000,
                 "tax_rate": 0,
-                "total_amount": 350,
+                "total_amount": 10000,
                 "total_tax_amount": 0
             ]
         ]
